@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  background-image: url("images/ProfileBG.png");
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+
+.background {
+  background-size: cover;
+}
+
+.container-fluid {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.navbar-collapse {
+  background-color: gold;
+  justify-content: right;
+  margin: 0 0 0 0;
+  background: gold;
+}
+
+.navbar {
+  background-color: gold;
+}
+
+.hero-img {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-menu {
+  margin-right: 20px;
+  list-style: none;
+  background: mediumblue;
+  border: none;
+  border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-menu {
+    text-align: center;
+    background-color: orange;
+  }
+
+  .row {
+    padding-left: 10px;
+  }
+  .hero-img {
+    margin-top: 50px;
+  }
+}

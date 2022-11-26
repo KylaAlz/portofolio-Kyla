@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--AOS CSS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!--AOS JS-->  
+
+    <title>Document</title>
+</head>
+    <body>
+    <script>   
+        AOS.init(); 
+    </script>
+        <div style="z-index: 3; position: fixed;" class="container-fluid">
+            <nav class="navbar navbar-expand-lg mb-3">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="navbar-menu nav-item active">
+                        <a class="nav-link" href="#Profile">Profile</a>
+                    </li>
+                    <li class="navbar-menu nav-item">
+                        <a class="nav-link" href="#Portofolio">Portofolio</a>
+                    </li>
+                    <li class="navbar-menu nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    </ul>
+                </div>
+            </nav>
+            </div>
+
+            <div class="container">
+                <div class="row" style="padding-top: 200px;"> <!--Profile-->
+                    <div data-aos="zoom-in" data-aos-duration="1500" class="row profilePage">
+                        <img src="assets/images/01.png" alt="">
+                    </div>
+                    <div data-aos="fade-down-left" data-aos-duration="2000" style="padding-top: 175px;" class="row">
+                        <img src="assets/images/02.png" alt="">
+                    </div>
+                    <div data-aos="fade-right" id="Profile"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"  class="row" style="padding-top: 175px;">
+                        <img src="assets/images/03.png" alt="">
+                    </div>
+                    <div data-aos="fade-left" style="padding-top: 50px;"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" 
+                        class="row">
+                        <img src="assets/images/04.png" alt="">
+                    </div>
+                </div>
+
+                <div id="Portofolio"  style="margin-top: 600px;" class="row"> <!--Mote2-->
+                    <div style="margin-top: 10px;" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="row">
+                        <img src="assets/images/05.png" alt="">
+                    </div>
+                    <div data-aos="zoom-in" data-aos-duration="2500" class="row">
+                        <img src="assets/images/06.png" alt="">
+                    </div>
+                <div style="margin-top: 500px;" class="row"> <!-- Personal name tag-->
+                    <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"             
+                        class="row">
+                        <img src="assets/images/07.png" alt="">
+                    </div>
+                </div>
+
+                <div style="margin-top: 450px;" class="row"> <!-- Caricature -->
+                    <div data-aos="fade-right"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="300"
+                        data-aos-duration="2000"
+                        data-aos-offset="0" class="row">
+                        <img src="assets/images/08.png" alt="">
+                    </div>
+                </div>
+                <div style="margin-top: 400px;" class="row">    <!-- Shoes-->
+                    <div  data-aos="fade-left"
+                        data-aos-offset="300"
+                        data-aos-duration="2000"
+                        data-aos-easing="ease-in-sine" class="row">
+                        <img src="assets/images/09.png" alt="">
+                    </div>
+                </div>
+                <div id="contact" style="margin-top: 200px; margin-bottom: 200px;" class="row">    <!-- contact-->
+                    <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" class="row">
+                        <img src="assets/images/10.png" alt="">
+                    </div>
+                </div>
+
+                </div>
+            </div>
+
+            <div class="footer">
+                <p class="footer"></p>All rights reserved © 2022 | Kyla Alzena</p>
+            </div>
+        </div>
+    </body>
+</html>
